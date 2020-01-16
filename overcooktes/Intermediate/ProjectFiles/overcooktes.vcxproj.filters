@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\overcooktes.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{DB066559-1358-41E9-AD64-CF156D699D5B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\overcooktes.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\overcooktesEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{A2278B1D-18EB-413A-8312-601037FAE4E7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\overcooktes">
+      <UniqueIdentifier>{18972138-854D-479F-82F0-E3080DC1633D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\overcooktes\overcooktes.Build.cs">
+      <Filter>Source\overcooktes</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\overcooktes\overcooktes.cpp">
+      <Filter>Source\overcooktes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\overcooktes\overcooktes.h">
+      <Filter>Source\overcooktes</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\overcooktes\overcooktesGameModeBase.cpp">
+      <Filter>Source\overcooktes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\overcooktes\overcooktesGameModeBase.h">
+      <Filter>Source\overcooktes</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\overcooktes\Scientist.cpp">
+      <Filter>Source\overcooktes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\overcooktes\Scientist.h">
+      <Filter>Source\overcooktes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
